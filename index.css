@@ -2,10 +2,10 @@
   margin: 0px;
 }
 header{
+  position: relative;
   background-image: url(./Assets/backgound\ main.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: ;
   height: 1000px;
   background-color: lightgray;
 }
@@ -17,12 +17,35 @@ header{
   background-color: #0f273e;
 }
 nav a{
-  color: #f5f5f5;
+  color: rgb(209, 198, 47);
   font-size: 24px;
   float:right;
-  margin:20px 50px 0px 10px;
+  margin:20px 80px 0px 10px;
+  text-align: center;
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
+}
+a:active{
+  color: #b10;
+}
+a:hover{
+  background-color:#f5f5f5;
+  color:#b10;
+}
+#grievin{
+  color:rgb(209, 198, 47) ;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 70px;
+  font-family:  'Ubuntu', sans-serif;
+  margin-top:30vh ;
+} 
+.grievin>p{
+  color: rgb(209, 198, 47);
+  font-family: 'Ubuntu', sans-serif;
+  margin:3% 30%;
+  font-size: 24px;
 }
 
 
