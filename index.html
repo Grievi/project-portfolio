@@ -73,10 +73,34 @@
       <div class="contact">
         <h1>CONTACT</h1>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nem</span>
-        <div >
-          <form action="https://mail.google.com/mail/u/0/#inbox" method="GET"></form>
+        <div class="contact-form">
+          <div id="error" ></div>
+            <form action="https://mail.google.com/mail/u/0/#inbox" method="GET">
+                <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" required>
+              <div>
+                <textarea placeholder="Your Message" type="text" id="message"></textarea>
+              </div>
+              </div>
+              <input class="button" type="submit" id="submit" value="SUBMIT">
+            </form>
         </div>
       </div>
     </section>
+    <!--begin footer -->
+    <footer>
+      <div class="icons">
+
+      </div>
+      <div class="footnote">
+        GRIEVIN OTIENO
+        <span class="highlights"> &copy;2021</span>
+      </div>
+    </footer>
 </body>
 </html>
