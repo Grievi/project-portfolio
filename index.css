@@ -11,7 +11,7 @@ header{
   /* opacity: 0.9; */
 }
 .navbar{
-  height: 90px;
+  height: 60px;
   opacity: 0.4;
   position: sticky;
   top: 0;
@@ -59,13 +59,15 @@ a:hover{
   text-decoration: none;
   /* display: inline-block; */
   margin: 0% 40%;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 #portfolio{
   background-color: #f5f5f5;
+  height: 1300px;
 }
 
 .portfolio h1{
+  background-color: lightgray;
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   text-align: center;
@@ -77,9 +79,53 @@ a:hover{
   text-align: center;
 }
 .cards{
-  float
+  float: left;
+  width: 448px;
+  height :510px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px 0px #0f273e;;
+  margin:30px 50px 30px 30px ;
+  background-color: white;
+  text-align: center;
+  line-height: 30px;
+  transition:0.5s
+}
+.cards:hover{
+  box-shadow: 0px 5px 5px 0px #0f273e;;
 }
 
+#last{
+  margin-left: 22vh;
+  margin-top: 20px;
+}
+.cards-main{
+  margin-left: 18vh;
+}
+#about{
+  background-color: #f5f5f5;
+  height:1000px;
+}
+.about-me{
+  /* box-sizing: border-box;
+  box-shadow: 0px 5px 5px 0px #0f273e;; */
+}
+.about-me h1{
+  background-color: lightgray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+.about-me img{
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+}
+.about-me p{
+  /* float: right; */
+  
+ 
+}
 
 
 
