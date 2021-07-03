@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+  position: relative;
 }
 header{
   position: relative;
@@ -34,7 +35,7 @@ a:hover{
   color:#b10;
 }
 #grievin{
-  color:rgb(209, 198, 47) ;
+  color:#b10;;
   display: flex;
   justify-content: center;
   font-weight: 500;
@@ -43,12 +44,13 @@ a:hover{
   margin-top:30vh ;
 } 
 .grievin>p{
-  color:rgb(209, 198, 47) ;
+  color: #0f273e;
+  text-shadow: #0f273e;
   font-family: 'Ubuntu', sans-serif;
   margin:3% 30%;
   font-size: 24px;
 }
-.button{
+/* btn{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   background-color: #0f273e;;
@@ -56,8 +58,31 @@ a:hover{
   color: white;
   padding: 15px 32px;
   text-align: center;
+  text-decoration: none; */
+/* } */
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: #0f273e;;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 5px;
+  text-align: center;
   text-decoration: none;
-  /* display: inline-block; */
+  margin: 0% 40%;
+  cursor: pointer;
+}
+.button > .btn{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: #0f273e;;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
   margin: 0% 40%;
   cursor: pointer;
 }
@@ -84,15 +109,28 @@ a:hover{
   height :510px;
   box-sizing: border-box;
   border-radius: 5px;
-  box-shadow: 0px 5px 5px 0px #0f273e;;
+  box-shadow: 0px 5px 5px #0f273e;;
   margin:30px 50px 30px 30px ;
   background-color: white;
   text-align: center;
   line-height: 30px;
   transition:0.5s
 }
+.cards >.btn{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: #0f273e;;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  /* margin-bottom: 10px; */
+}
 .cards:hover{
-  box-shadow: 0px 5px 5px 0px #0f273e;;
+  box-shadow: 0px 8px 8px #0f273e;;
 }
 
 #last{
@@ -107,8 +145,8 @@ a:hover{
   height:1000px;
 }
 .about-me{
-  /* box-sizing: border-box;
-  box-shadow: 0px 5px 5px 0px #0f273e;; */
+  /* float: left; */
+ align-items: center;
 }
 .about-me h1{
   background-color: lightgray;
@@ -117,16 +155,37 @@ a:hover{
   text-align: center;
 }
 .about-me img{
-  display: flex;
-  border-radius: 50%;
-  justify-content: center;
+  /* display: flex; */
+  margin-top: 10vh;
+  margin-left: 10vh;
+  border-radius: 10px;
+  /* justify-content: center; */
 }
 .about-me p{
-  /* float: right; */
-  
- 
+  float: right;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  margin-top: 10vh;
+  margin-right: 60vh;
 }
-
+.about-me >p >#bout{
+  margin-bottom:50vh;
+}
+#contact{
+  background-color: lightslategrey;
+  height: 900px;
+}
+.contact h1{
+  background-color: lightgray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+.class p{
+  /* display: inline-block; */
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+}
 
 
 
