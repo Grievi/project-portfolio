@@ -247,7 +247,7 @@ textarea{
   width: 50px;
   height: 50px;
   background-color: #1d548b;
-  border-radius: 10px;
+  border-radius: 50%;
   color: white;
   bottom: 30vh;
   right: 5vh;
